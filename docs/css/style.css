@@ -1,6 +1,6 @@
 :root {
   --container-bg-color: #333;
-  --left-bg-color: rgba(255, 131, 35, 0.812); /*--left-bg-color: rgba(255, 102, 0, 0.812);*/
+  --left-bg-color: rgba(227, 127, 36, 0.8);
   --left-button-hover-color: rgba(161, 11, 11, 0.3);
   --right-bg-color: rgba(43, 43, 43, 0.8);
   --right-button-hover-color: rgba(92, 92, 92, 0.3);
@@ -82,7 +82,7 @@ h3 {
 
 .split.left {
   left:0;
-  /*background: url('../assets/sublime_api.png') center center no-repeat;*/
+  background: url('../assets/sublime_docs.png') center center no-repeat;
   background-size: cover;
 }
 

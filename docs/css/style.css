@@ -82,7 +82,7 @@ h3 {
 
 .split.left {
   left:0;
-  /*background: url('/assets/sublime_api.png') center center no-repeat;*/
+  /*background: url('assets/sublime_api.png') center center no-repeat;*/
   background-size: cover;
 }
 
@@ -96,7 +96,7 @@ h3 {
 
 .split.right {
   right:0;
-  background: url('/assets/sublime_api.png') center center no-repeat;
+  background: url('assets/sublime_api.png') center center no-repeat;
   background-size: cover;
 }
 

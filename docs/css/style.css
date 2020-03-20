@@ -20,6 +20,7 @@ div {
     justify-content: center;
 }
 
+
 .st-container {
     display: flex;
 }
@@ -96,6 +97,14 @@ div {
 .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
+}
+
+
+.st-container .repo-icons {
+    padding: 5px;
+}
+.st-container .repo-icons a img {
+    filter: invert(100%);
 }
 
 .st-container h1 {

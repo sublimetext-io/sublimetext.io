@@ -45,11 +45,6 @@ div {
     text-transform: uppercase;
 }
 
-.st-left:hover,
-.st-right:hover {
-    transform: scale(0.95);
-}
-
 .off-docs {
     position: absolute;
     opacity: 0;
@@ -256,3 +251,4 @@ div {
     .corner-ribbon.yellow {
         background: #ec0;
     }
+}

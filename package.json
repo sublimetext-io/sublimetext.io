@@ -18,7 +18,7 @@
     "watch": "run-p serve watch:*",
     "postinstall": "run-s build watch"
   },
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.10",
     "eslint": "^8.26.0",

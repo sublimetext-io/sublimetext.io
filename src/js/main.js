@@ -14,7 +14,7 @@
   })
 
   // Reveal animations
-  function revealAnimations () {
+  function revealAnimations() {
     sr.reveal('.feature', {
       duration: 600,
       distance: '20px',
@@ -34,7 +34,7 @@
     lightSwitch.addEventListener('change', checkLights)
   }
 
-  function checkLights () {
+  function checkLights() {
     let labelText = lightSwitch.parentNode.querySelector('.label-text')
     if (lightSwitch.checked) {
       body.classList.remove('lights-off')

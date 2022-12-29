@@ -1,24 +1,37 @@
 .switch[type="checkbox"] {
 
-	+ label {
-
+	+label {
 		&::before {
-				background: mix(color(tertiary, 1), color(tertiary, 3));
-			background: linear-gradient(to right, color(tertiary, 1) 0, color(tertiary, 3) 100%);
+			background: #37465c
 		}
 
 		&::after {
-			background: color(bg, 1);
+			background: transparent;
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			content: "\f186";
+			text-align: center;
+			line-height: 1.25rem;
+			color: #8d8a8a
 		}
 	}
 
 	&:checked {
 
-		+ label {
-
+		+label {
 			&::before {
-				background: mix(color(tertiary, 1), color(tertiary, 3));
-				background: linear-gradient(to right, color(tertiary, 1) 0, color(tertiary, 3) 100%);
+				background: #e0e5ed
+			}
+
+
+			&::after {
+				background: transparent;
+				font-family: "Font Awesome 5 Free";
+				font-weight: 900;
+				content: "\f185";
+				text-align: center;
+				line-height: 1.25rem;
+				color: #8d8a8a
 			}
 		}
 	}
@@ -59,21 +72,31 @@
 		color: color(tertiary, 2);
 	}
 
-	h1, h2, h3, h4, h5, h6,
-	.h1, .h2, .h3, .h4, .h5, .h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.h1,
+	.h2,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
 		color: color(typography, 1i) !important;
 	}
 
 	&.is-boxed {
-	    background: lighten(desaturate(color(bg, 1i), 8%), 3%);
+		background: lighten(desaturate(color(bg, 1i), 8%), 3%);
 	}
 
 	.body-wrap {
-	    background: color(bg, 1i);
+		background: color(bg, 1i);
 	}
 
 	.boxed-container {
-	    @include shadow(dark);
+		@include shadow(dark);
 	}
 
 	hr {
@@ -81,19 +104,29 @@
 	}
 
 	.has-top-divider {
-	    @include divider(before, dark);
+		@include divider(before, dark);
 	}
 
 	.has-bottom-divider {
-	    @include divider(after, dark);
+		@include divider(after, dark);
 	}
 }
 
 // Transitions
 body,
 a,
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
 	transition: color .25s ease;
 }
 
@@ -113,16 +146,17 @@ hr::after,
 // Animations
 @keyframes fadeInLogo {
 	0% {
-    	opacity: 0;
-    	transform: scale(0.5);
+		opacity: 0;
+		transform: scale(0.5);
 	}
 }
 
 @keyframes fadeInLeftMedia {
 	0% {
-    	opacity: 0;
-    	transform: scale(0.8) translate3d(40px, 10px, 0);
+		opacity: 0;
+		transform: scale(0.8) translate3d(40px, 10px, 0);
 	}
+
 	30% {
 		opacity: 1;
 	}
@@ -130,16 +164,17 @@ hr::after,
 
 @keyframes fadeInLeftIllustration {
 	0% {
-    	opacity: 0;
-    	transform: scale(0.95) translate3d(40px, 10px, 0);
+		opacity: 0;
+		transform: scale(0.95) translate3d(40px, 10px, 0);
 	}
 }
 
 @keyframes fadeUpBox {
 	0% {
-    	opacity: 0;
-    	transform: scale(0.95) translate3d(-40px, 20px, 0);
+		opacity: 0;
+		transform: scale(0.95) translate3d(-40px, 20px, 0);
 	}
+
 	30% {
 		opacity: 1;
 	}
@@ -147,7 +182,7 @@ hr::after,
 
 @keyframes fadeIn {
 	0% {
-    	opacity: 0;
+		opacity: 0;
 	}
 }
 

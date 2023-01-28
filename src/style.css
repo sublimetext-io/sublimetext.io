@@ -8,6 +8,7 @@
    /* Utils */
    --width-c1: 90rem;
    --width-c2: 70rem;
+   --width-c3: 35rem;
 
    --space-25: 0.25rem;
    --space-half: 0.5rem;
@@ -26,11 +27,14 @@ html, body {
    margin: 0;
    background: var(--color-bg-1);
    font-family: var(--font);
+   -webkit-font-smoothing: antialiased;
 }
 
 * {
    box-sizing: border-box;
    letter-spacing: 0.05rem;
+   webkit-font-smoothing: antialiased;
+   letter-spacing: -0.1px;
 }
 
 body.ready, body.ready * {
@@ -77,11 +81,10 @@ body.light {
 | Card
 ----------------------------------------------------*/
 .cards {
-   padding-top: var(--space-3);
+   padding: var(--space-3) var(--space-1) var(--space-5) var(--space-1);
    border-bottom: 1px solid var(--color-sublime);
-   padding-bottom: 5rem;
    margin: auto;
-   max-width: var(--width-c2);
+   max-width: var(--width-c3);
 }
 
 .card {
@@ -102,6 +105,20 @@ body.light {
    100% { opacity: 1; transform: translateY(0); }
 }
 
+
+.card .left {
+   padding:var(--space-half) 0;
+}
+
+.card .left .app-icon {
+   width: 3.75rem;
+}
+
+.card .right {
+   flex: 1;
+   padding-left: var(--space-2);
+}
+
 /* Mobile Mode */
 @media (max-width: 500px) {
    .card {
@@ -114,22 +131,10 @@ body.light {
       margin-left: auto;
       margin-right: auto;
    }
-}
 
-.card .left {
-   padding:var(--space-half) var(--space-2);
-}
-
-.card .left .app-icon {
-   width: 3.75rem;
-}
-
-.card .right {
-   flex: 1;
-}
-
-.card .right .text {
-   max-width: 28rem;
+   .card .right {
+      padding-left: 0;
+   }
 }
 
 /*----------------------------------------------------
@@ -145,11 +150,16 @@ a:hover {
 }
 
 .text {
-   font-weight: 300;
+   font-weight: 100;
    line-height: 1.75rem;
+   font-size: 18px;
+   
+
 }
 
-.h2 {
+h3 {
+   margin: 0;
+   font-weight: 400;
    font-size: 1.45rem;
    color: var(--color-text);
    font-family: var(--font-2);
@@ -159,7 +169,7 @@ hr {
    border: none;
    border-bottom: 0.15rem solid var(--color-sublime);
    width: 2rem;
-   margin: var(--space-75) 0 var(--space-1) 0;
+   margin: var(--space-75) 0 var(--space-75) 0;
    text-align: left;
 }
 
@@ -192,7 +202,7 @@ i.moon {
 
 
 /*----------------------------------------------------
-| Fancy Switch
+| Switch
 ----------------------------------------------------*/
 .toggle-container {
    padding: var(--space-2);

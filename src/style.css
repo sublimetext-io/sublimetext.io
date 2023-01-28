@@ -121,6 +121,9 @@ body.light {
 
 /* Mobile Mode */
 @media (max-width: 500px) {
+   .cards {
+      padding-top: 0;
+   }
    .card {
       flex-direction: column;
       text-align: center;
@@ -175,7 +178,7 @@ hr {
 
 .love-sublime {
    text-align: center;
-   margin: var(--space-1);
+   padding: var(--space-1);
    opacity: 0.5;
    font-size: 0.8rem;
 }
@@ -209,6 +212,13 @@ i.moon {
    max-width: var(--width-c2);
    margin: auto;
    padding-top: var(--space-4);
+}
+
+/* Mobile Mode */
+@media (max-width: 500px) {
+   .toggle-container {
+      padding: var(--space-1);
+   }
 }
 
 .toggle {

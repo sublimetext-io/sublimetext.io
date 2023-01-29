@@ -13,7 +13,7 @@ initialize(initialState)
 
 function initialize(state) {
    console.log('Made with ❤️ in Sublime Text')
-   const toggle = state === UI_DARK ? true : false
+   const toggle = state === UI_DARK
    updateHTML(toggle)
 }
 

@@ -92,10 +92,14 @@ body.light {
    margin: auto;
    max-width: 40rem;
    display: flex;
-   padding-bottom: var(--space-5);
    opacity: 0;
    animation: fade-in 0.75s forwards;
 }
+
+.card:not(:first-child) {
+   padding-top: var(--space-5);
+}
+
 
 .card:nth-of-type(1) { animation-delay: 0.1s; }
 .card:nth-of-type(2) { animation-delay: 0.3s; }
@@ -157,8 +161,6 @@ a:hover {
    font-weight: 100;
    line-height: 1.75rem;
    font-size: 18px;
-   
-
 }
 
 h3 {

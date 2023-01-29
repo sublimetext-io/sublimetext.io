@@ -12,7 +12,7 @@ const initialState = readStorage ?? UI_LIGHT
 initialize(initialState)
 
 function initialize(state) {
-   console.log('Made with ❤️ on Sublime Text');
+   console.log('Made with ❤️ on Sublime Text')
    const toggle = state === UI_DARK ? true : false
    updateHTML(toggle)
 }

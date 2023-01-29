@@ -1,17 +1,39 @@
-var state = localStorage.getItem('toggle') === 'true' ? true : false
-var eleToggle = document.querySelector('.toggle')
-onClickToggle(state)
+const UI_MODE_SAVE_KEY = 'ui_mode'
+const UI_DARK = 'dark'
+const UI_LIGHT = 'light'
 
-eleToggle.onclick = () => onClickToggle()
+// toggle
+const htmlToggle = document.querySelector('.toggle')
+htmlToggle.onclick = () => onClickToggle()
 
-function onClickToggle(setState = null) {
-   var newState = setState !== null ? setState : !eleToggle.classList.contains('on')
-   eleToggle.classList.toggle('on', newState)
-   document.body.classList.toggle('light', newState)
+// initial state
+const readStorage = localStorage.getItem(UI_MODE_SAVE_KEY)
+const initialState = readStorage ?? UI_LIGHT
+initialize(initialState)
 
-   localStorage.setItem('toggle', newState)
-   setTimeout(() => {
-      document.body.classList.add('ready')
-   }, 100)
+function initialize(state) {
+   console.log('Made with ❤️ on Sublime Text');
+   const toggle = state === UI_DARK ? true : false
+   updateHTML(toggle)
 }
 
+function onClickToggle() {
+   const toggle = !htmlToggle.classList.contains('on')
+   updateHTML(toggle)
+
+   const state = toggle ? UI_DARK : UI_LIGHT
+   updateStorage(state)
+}
+
+function updateHTML(toggle) {
+   htmlToggle.classList.toggle('on', toggle)
+   document.body.classList.toggle('light', toggle)
+
+   setTimeout(() => {
+      document.body.classList.add('ready')
+   }, 50)
+}
+
+function updateStorage(state) {
+   localStorage.setItem(UI_MODE_SAVE_KEY, state)
+}

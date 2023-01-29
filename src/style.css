@@ -74,6 +74,7 @@ body.light {
    background: var(--color-bg-2);
    color: var(--color-text-light);
    min-height: 100%;
+   padding-bottom: var(--space-1);
 }
 
 

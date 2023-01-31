@@ -1,0 +1,28 @@
+{
+  "name": "sublimetext.io",
+  "version": "1.0.0",
+  "description": "sublimetext.io landing page!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serve -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublimetext-io/sublimetext.io.git"
+  },
+  "keywords": [
+    "i",
+    "love",
+    "sublime"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sublimetext-io/sublimetext.io/issues"
+  },
+  "homepage": "https://github.com/sublimetext-io/sublimetext.io#readme",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

@@ -202,6 +202,25 @@ hr {
    text-align: left;
 }
 
+/*----------------------------------------------------
+| Icons
+----------------------------------------------------*/
+i {
+   width: 1.5rem;
+   height: 1.5rem;
+   display: inline-block;
+   background-size: cover;
+   opacity: 0.5;
+   transition: all 0.5s;
+}
+
+i.sun {
+   background-image: url('./images/icon-light-mode.svg');
+}
+
+i.moon {
+   background-image: url('./images/icon-dark-mode.svg');
+}
 
 /*----------------------------------------------------
 | Switch

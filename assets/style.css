@@ -22,7 +22,8 @@
 
 
 /* Reset */
-html, body {
+html,
+body {
    padding: 0;
    margin: 0;
    background: var(--color-bg-1);
@@ -33,11 +34,12 @@ html, body {
 * {
    box-sizing: border-box;
    letter-spacing: 0.05rem;
-   webkit-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased;
    letter-spacing: -0.1px;
 }
 
-body.ready, body.ready * {
+body.ready,
+body.ready * {
    transition: all 0.75s;
 }
 
@@ -101,18 +103,38 @@ body.light {
 }
 
 
-.card:nth-of-type(1) { animation-delay: 0.1s; }
-.card:nth-of-type(2) { animation-delay: 0.3s; }
-.card:nth-of-type(3) { animation-delay: 0.5s; }
+.card:nth-of-type(1) {
+   animation-delay: 0.1s;
+}
+
+.card:nth-of-type(2) {
+   animation-delay: 0.3s;
+}
+
+.card:nth-of-type(3) {
+   animation-delay: 0.5s;
+}
+
 @keyframes fade-in {
-   0% { opacity: 0; transform: translateY(5rem); }
-   50% { opacity: 0.8; transform: translateY(0); }
-   100% { opacity: 1; transform: translateY(0); }
+   0% {
+      opacity: 0;
+      transform: translateY(5rem);
+   }
+
+   50% {
+      opacity: 0.8;
+      transform: translateY(0);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
 
 
 .card .left {
-   padding:var(--space-half) 0;
+   padding: var(--space-half) 0;
 }
 
 .card .left .app-icon {
@@ -129,6 +151,7 @@ body.light {
    .cards {
       padding-top: 0;
    }
+
    .card {
       flex-direction: column;
       text-align: center;
@@ -177,33 +200,6 @@ hr {
    width: 2rem;
    margin: var(--space-75) 0 var(--space-75) 0;
    text-align: left;
-}
-
-.love-sublime {
-   text-align: center;
-   padding: var(--space-1);
-   opacity: 0.5;
-   font-size: 0.8rem;
-}
-
-/*----------------------------------------------------
-| Icons
-----------------------------------------------------*/
-i {
-   width: 1.5rem;
-   height: 1.5rem;
-   display: inline-block;
-   background-size: cover;
-   opacity: 0.5;
-   transition: all 0.5s;
-}
-
-i.sun {
-   background-image: url('./images/icon-light-mode.svg');
-}
-
-i.moon {
-   background-image: url('./images/icon-dark-mode.svg');
 }
 
 

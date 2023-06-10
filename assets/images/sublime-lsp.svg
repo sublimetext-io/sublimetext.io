@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.59 202.45">
+  <defs>
+    <style>
+      .uuid-971faad3-8595-4134-abfd-f8ac6ae9584a {
+        fill: url(#uuid-dc2174d7-f709-4e07-8140-3cacd665b07d);
+      }
+
+      .uuid-971faad3-8595-4134-abfd-f8ac6ae9584a, .uuid-f54f4a5d-31f7-40b3-9b04-c7201d93c3a4 {
+        fill-rule="evenodd";
+      }
+      .uuid-477dbc25-c4cb-41ff-adec-c08734b5132b {
+        fill: url(#uuid-2a66aa6f-817a-4716-80d6-ba09e142c657);
+      }
+    </style>
+    <linearGradient id="uuid-2a66aa6f-817a-4716-80d6-ba09e142c657" x1="98.78" y1="191.54" x2="97.78" y2="6.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d3e3e"/>
+      <stop offset="1" stop-color="#505151"/>
+    </linearGradient>
+    <linearGradient id="uuid-dc2174d7-f709-4e07-8140-3cacd665b07d" x1="-897.71" y1="316.26" x2="-894.14" y2="316.26" gradientTransform="translate(1975.7 -2642.2) rotate(-73.35) scale(3.66 -3.19) skewX(4.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9700"/>
+      <stop offset=".53" stop-color="#f48e00"/>
+      <stop offset="1" stop-color="#ce6e00"/>
+    </linearGradient>
+  </defs>
+  <g id="uuid-f42837d7-557b-4a8a-969c-298470e486ae" data-name="Base">
+    <rect class="uuid-477dbc25-c4cb-41ff-adec-c08734b5132b" width="196.59" height="202.45" rx="40.65" ry="40.65"/>
+  </g>
+  <g id="uuid-bb0dc0a0-c4af-44b4-bfe7-7c09e94105c3" data-name="Sublime">
+    <g id="uuid-10f90c62-afe9-4cf9-82f6-5c18ca0a8b73" data-name="layer1">
+      <g id="uuid-910e04b9-a3f4-4df3-869a-5083125b64bd" data-name="g965">
+        <path id="uuid-d6caff97-c05b-45c2-b54c-da08029e73d9" data-name="path892" class="uuid-ff899630-fcb8-4f8e-b67a-bccd1edaae62" fill="none" stroke="#e3dbdb" stroke-linecap="round" stroke-miterlimit="15.12" stroke-width="2px" d="m17.74,82.61v31.07s0,6.21,6.21,6.21h34.18"/>
+        <path id="uuid-a4394d2b-bdd8-4499-83b1-590ed88714c1" data-name="path896" class="uuid-ff899630-fcb8-4f8e-b67a-bccd1edaae62" fill="none" stroke="#e3dbdb" stroke-linecap="round" stroke-miterlimit="15.12" stroke-width="2px" d="m137.71,119.85v-12.43s0-6.21,6.21-6.21h31.07s6.21,0,6.21-9.32c0-3.11,0-9.32-6.21-9.32h-37.29"/>
+        <g id="uuid-8fb2020f-812d-465e-a4e4-4df2236d804c" data-name="g32">
+          <path id="uuid-0a51a082-1c4c-43c4-b5e1-08cf286ae289" data-name="path26" class="uuid-971faad3-8595-4134-abfd-f8ac6ae9584a" fill-rule="evenodd" d="m120.56,101.39c0-.67-.49-1.05-1.1-.86l-41.54,13.17c-.61.19-1.1.89-1.1,1.55v13.46c0,.67.49,1.05,1.1.86l41.54-13.17c.6-.19,1.1-.89,1.1-1.55v-13.46Z"/>
+          <path id="uuid-f8659517-4b15-4e9b-8403-e90e2412ef18" data-name="path28" class="uuid-f54f4a5d-31f7-40b3-9b04-c7201d93c3a4" fill-rule="evenodd" fill="#ff9800" d="m76.83,100.97c0,.67.49,1.36,1.1,1.55l41.55,13.17c.61.19,1.1-.19,1.1-.86v-13.46c0-.66-.49-1.36-1.1-1.55l-41.55-13.17c-.61-.19-1.1.19-1.1.86v13.46Z"/>
+          <path id="uuid-d12d5947-e621-440a-8bb7-035b19c72d85" data-name="path30" class="uuid-f54f4a5d-31f7-40b3-9b04-c7201d93c3a4" fill-rule="evenodd" fill="#ff9800" d="m120.56,73.73c0-.67-.49-1.05-1.1-.86l-41.54,13.17c-.61.19-1.1.89-1.1,1.55v13.46c0,.67.49,1.05,1.1.86l41.54-13.17c.6-.19,1.1-.89,1.1-1.55v-13.46Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

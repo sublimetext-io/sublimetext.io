@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.59 202.45">
+  <defs>
+    <style>
+      .uuid-0a201650-67f7-4585-adfb-a512de9e03b7 {
+        filter: url(#uuid-0f113e93-252f-43a7-80c1-6efea0199df7);
+      }
+      .uuid-b81de650-64c9-493c-9dd7-1e9cf02408b1 {
+        fill: url(#uuid-74fd3de2-0c92-4552-97a5-681d915299a8);
+      }
+    </style>
+    <linearGradient id="uuid-74fd3de2-0c92-4552-97a5-681d915299a8" x1="98.78" y1="191.54" x2="97.78" y2="6.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5763f6"/>
+      <stop offset="1" stop-color="#7780f7"/>
+    </linearGradient>
+    <filter id="uuid-0f113e93-252f-43a7-80c1-6efea0199df7" data-name="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="6"/>
+      <feGaussianBlur result="uuid-4629e433-f7b3-48f5-b2c0-0927f5b7c1fd" stdDeviation="7"/>
+      <feFlood flood-color="#000" flood-opacity=".54"/>
+      <feComposite in2="uuid-4629e433-f7b3-48f5-b2c0-0927f5b7c1fd" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="uuid-601f8550-b3cb-4960-bd70-226af88808ba" data-name="Base">
+    <rect class="uuid-b81de650-64c9-493c-9dd7-1e9cf02408b1" y="0" width="196.59" height="202.45" rx="40.65" ry="40.65"/>
+  </g>
+  <g id="uuid-2b273d7d-670e-4d85-b1cb-5b609597ae28" data-name="Layer 2">
+    <g class="uuid-0a201650-67f7-4585-adfb-a512de9e03b7">
+      <path fill="#fff" d="m150.04,53.19c-9.65-4.51-19.97-7.8-30.75-9.66-1.32,2.4-2.87,5.62-3.94,8.18-11.47-1.72-22.83-1.72-34.08,0-1.07-2.56-2.65-5.78-3.99-8.18-10.8,1.87-21.13,5.16-30.78,9.69-19.46,29.41-24.74,58.09-22.1,86.37,12.91,9.64,25.42,15.5,37.72,19.33,3.04-4.18,5.75-8.62,8.08-13.3-4.44-1.69-8.7-3.77-12.72-6.19,1.07-.79,2.11-1.62,3.12-2.47,24.53,11.47,51.18,11.47,75.42,0,1.02.85,2.06,1.68,3.12,2.47-4.03,2.43-8.3,4.51-12.75,6.2,2.33,4.67,5.03,9.13,8.08,13.3,12.31-3.83,24.83-9.69,37.74-19.34,3.1-32.78-5.29-61.2-22.16-86.39Zm-76.51,69c-7.36,0-13.4-6.87-13.4-15.25s5.91-15.26,13.4-15.26,13.53,6.87,13.4,15.26c.01,8.37-5.91,15.25-13.4,15.25Zm49.53,0c-7.36,0-13.4-6.87-13.4-15.25s5.91-15.26,13.4-15.26,13.53,6.87,13.4,15.26c0,8.37-5.91,15.25-13.4,15.25Z"/>
+    </g>
+  </g>
+</svg>
